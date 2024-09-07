@@ -18,3 +18,7 @@ Goals Achieved:
 5. Learned and Implemented Broadcast Join for the fast lookup 
 
 6. Learned and Implemented Pyspark Rank & aggregation functions
+
+7. Learned and Implemented Data partitioning
+
+8. Learned and Implemented Delta tables & files
