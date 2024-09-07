@@ -3,7 +3,7 @@ End to End Pyspark project using databricks
 
 Goals Achieved:
 
-1. Getting familiar with Databricks environment
+1. Got familiar with Databricks environment
      Learned about clusters,
      Learned about DBFS,
      Uploading files to databricks,
