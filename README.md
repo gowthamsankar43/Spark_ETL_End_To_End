@@ -24,3 +24,5 @@ Goals Achieved:
 8. Learned and Implemented Delta tables & files
 
 ![image](https://github.com/user-attachments/assets/b6feafdb-4ab0-4e07-b9b9-ded4edafa5b6)
+
+9. Learned Configuring GIT with databricks
