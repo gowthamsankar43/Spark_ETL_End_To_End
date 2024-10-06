@@ -21,6 +21,8 @@ User Requirements:
 5.	Total amount of small Pizza sold in every category
 6.	Total amount of Chicken Pizza sales in May month
 7.	Total amount of Pizza sales in month wise every pizza sorted by max sold pizza
+
+
 What is Object-Oriented Programming in Python?
 In Python object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming. The main concept of object-oriented Programming (OOPs) or oops concepts in Python is to bind the data and the functions that work together as a single unit so that no other part of the code can access this data.
 Python Class 
