@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Monthlywise chicken categorysales.pbix"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "735779bc-928f-4f07-81d5-4bc29d5c9e34"
+  }
+}
