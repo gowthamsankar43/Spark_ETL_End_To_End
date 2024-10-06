@@ -3,7 +3,7 @@ End to End Spark project using Databricks with Unity Catalog feature
 
 **Source:**
 
-** Datasets :** https://www.kaggle.com/datasets/umairhayat/pizza-data-set-order-detail
+**Datasets :** https://www.kaggle.com/datasets/umairhayat/pizza-data-set-order-detail
 
 **Pipeline Flow :**
 ![image](https://github.com/user-attachments/assets/d21a2038-46fd-4d85-a2fe-be6462d104b1)
@@ -44,7 +44,7 @@ An object consists of:
 **Python __init__ Method :** 
 The __init__ method is similar to constructors in C++ and Java. It is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
 
-** PySpark Broadcast Join :**
+**PySpark Broadcast Join :**
 PySpark defines the pyspark.sql.functions.broadcast() to broadcast the smaller DataFrame which is then used to join the largest Data Frame. As you know PySpark splits the data into different nodes for parallel processing, when you have two DataFrames, the data from both are distributed across multiple nodes in the cluster so, when you perform traditional join, PySpark is required to shuffle the data. Shuffle is needed as the data for each joining key may not collocate on the same node and to perform join the data for each key should be brought together on the same node. Hence, the traditional PySpark Join is a very expensive operation.
 
 
