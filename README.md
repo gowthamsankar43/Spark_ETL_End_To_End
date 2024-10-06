@@ -24,18 +24,22 @@ User Requirements:
 
 
 What is Object-Oriented Programming in Python?
+
 In Python object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming. The main concept of object-oriented Programming (OOPs) or oops concepts in Python is to bind the data and the functions that work together as a single unit so that no other part of the code can access this data.
-Python Class 
+
+**Python Class** 
 A class is a collection of objects. A class contains the blueprints or the prototype from which the objects are being created. It is a logical entity that contains some attributes and methods. 
-Python Objects
+
+**Python Objects**
 In object-oriented programming Python, The object is an entity that has a state and behaviour associated with it. It may be any real-world object like a mouse, keyboard, chair, table, pen, etc. Integers, strings, floating-point numbers, even arrays, and dictionaries, are all objects.
 An object consists of:
 •	State: It is represented by the attributes of an object. It also reflects the properties of an object.
 •	Behaviour: It is represented by the methods of an object. It also reflects the response of an object to other objects.
 •	Identity: It gives a unique name to an object and enables one object to interact with other objects.
-Python __init__ Method 
+
+**Python __init__ Method** 
 The __init__ method is similar to constructors in C++ and Java. It is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
- PySpark Broadcast Join
+** PySpark Broadcast Join**
 PySpark defines the pyspark.sql.functions.broadcast() to broadcast the smaller DataFrame which is then used to join the largest Data Frame. As you know PySpark splits the data into different nodes for parallel processing, when you have two DataFrames, the data from both are distributed across multiple nodes in the cluster so, when you perform traditional join, PySpark is required to shuffle the data. Shuffle is needed as the data for each joining key may not collocate on the same node and to perform join the data for each key should be brought together on the same node. Hence, the traditional PySpark Join is a very expensive operation.
 
 
