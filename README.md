@@ -1,14 +1,18 @@
-Data Bricks End To End Project
+**Data Bricks End To End Project**
 End to End Spark project using Databricks with Unity Catalog feature
-Source
- Datasets: https://www.kaggle.com/datasets/umairhayat/pizza-data-set-order-detail
 
-Pipeline Flow 
+**Source:**
+
+** Datasets :** https://www.kaggle.com/datasets/umairhayat/pizza-data-set-order-detail
+
+**Pipeline Flow :**
 ![image](https://github.com/user-attachments/assets/d21a2038-46fd-4d85-a2fe-be6462d104b1)
 
  
-Factory Pattern: 
-Creational design pattern
+**Factory Pattern:** 
+
+**Creational design pattern :**
+
 The factory pattern in Python is a creational design pattern that allows the creation of objects without exposing the logic to the client. It is implemented using a factory method or a factory class to produce instances of objects based on input criteria or conditions
 Workflow Application Notebook:
 	Entry point of the Application which has a notebook trigger for ETL and user inputs. 
